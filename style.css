@@ -273,6 +273,18 @@
   .project {
     flex-direction: column;
     height: max-content;
+    position: relative;
+  }
+
+  .project .laptop img {
+    width: 54%;
+  }
+  .laptopScreen {
+    max-width: 500px;
+    min-height: 700px;
+    padding-left: 3px;
+    top: 10px;
+    overflow: scroll;
   }
 
   /* For phone */
