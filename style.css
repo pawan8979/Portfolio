@@ -177,11 +177,11 @@
 }
 
 .laptopScreen {
-  width: 451px;
-  height: 283px;
+  width: 470px;
+  height: 310px;
   position: absolute;
-  top: 18px;
-  left: 68px;
+  top: 8px;
+  left: 60px;
   overflow: scroll;
 }
 
@@ -276,14 +276,11 @@
     position: relative;
   }
 
-  .project .laptop img {
-    width: 54%;
-  }
   .laptopScreen {
     max-width: 500px;
-    min-height: 700px;
+    height: 300px;
     padding-left: 3px;
-    top: 10px;
+    top: 5px;
     overflow: scroll;
   }
 
@@ -315,5 +312,32 @@
     color: #555;
     font-size: 30px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .laptop {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .laptop img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .laptopScreen {
+    width: 100%;
+    max-width: 233px;
+    height: 150px; /* Adjust the height as needed */
+    top: 80px;
+    left: 145px;
+    transform: translate(-50%, -50%);
   }
 }
